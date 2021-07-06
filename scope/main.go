@@ -14,4 +14,8 @@ func main() {
 
 	fmt.Println(name, ok)
 
+	hey()
+	bye()
+	//hey and bye are defined in main package scope and it can be used here
+
 }
